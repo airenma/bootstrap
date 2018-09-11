@@ -7,3 +7,8 @@ header div {
    
 }
 
+#logo{
+    font-family: 'Caveat', cursive;
+    font-size: 28px;
+    color: red;
+}
