@@ -1,12 +1,17 @@
 
 
-header div {
+header{
    display: flex;
-    background: red;
-    min-height: 50px;
-   
+    height: 70px;   
 }
 
+header div {
+    background: red; min-height: 50px;
+}
+
+#container{
+    min-height: 400px;
+}
 #logo{
     font-family: 'Caveat', cursive;
     font-size: 28px;
