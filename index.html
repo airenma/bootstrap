@@ -89,10 +89,10 @@
                             <div class="panel-collapse collapse in" id="work1">
                                 <div class="panel-body">
                                     <div class="row">
-                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                        <div class="col-lg-4 col-md-4 ">
                                             <a href="#" title="подробнее"><img src="img/appetizers_01.jpg" alt=""></a>
                                         </div>
-                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                        <div class="col-lg-8 col-md-8 ">
                                             <h3>House</h3>
                                             <h5>hello</h5>
                                             <h5><a href="#" title="подробнее">подробнее</a></h5>
@@ -101,7 +101,7 @@
                                 </div>
                             </div>
                         </div>
-<!--                        конец первой панели аккордеона -->
+конец первой панели аккордеона
                         <div class="panel panel-success">
                             <div class="panel panel-heading">
                                 <h4 class="panel-title">
@@ -111,13 +111,13 @@
                             <div class="panel-collapse collapse" id="work2">
                                 <div class="panel-body">
                                     <div class="row">
-                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                                            <a href="#" title="подробнее"><img src="img/appetizers_02.jpg" alt=""></a>
+                                        <div class="col-lg-4 col-md-4">
+                                            <a href="#" data-toggle="modal" data-target="#modalwork" title="подробнее"><img src="img/appetizers_02.jpg" alt=""></a>
                                         </div>
-                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                        <div class="col-lg-8 col-md-8 ">
                                             <h3>House</h3>
                                             <h5>hello</h5>
-                                            <h5><a href="#" title="подробнее">подробнее</a></h5>
+                                            <h5><a href="#" data-toggle="modal" data-target="#modalwork" title="подробнее">подробнее</a></h5>
                                         </div> 
                                     </div>
                                 </div>
@@ -129,8 +129,41 @@
         </div>
         
     </div>
-    
+    <div id="modalwork" class="modal">
+        <div class="modal-dialog" class="modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Работа 1</h4>
+
+                    <button class="close" type="button>" data-dismiss="modal">
+                        <i class="glyphicon glyphicon-remove"></i> 
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="container">
+                            <img src="img/mobile-phone.png" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="container">
+                            <h5>год создания <span class="badge">2018</span></h5>
+                            <h5>Тип работы <span class="badge">Портфолио</span> </h5>
+                            <h5>Посещений <span class="badge">142</span></h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="close" class="btn btn-danger" data-dismiss="modal"> закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <footer>footer</footer>
+<!-- модальные окна -->
+<!-- конец работы с модальными окнами -->
 
   </body>
 </html>
