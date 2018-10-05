@@ -10,10 +10,19 @@ header div {
 }
 
 #container{
-    min-height: 400px;
+    min-height: 500px;
 }
-#logo{
+#logo, #footer-logo{
     font-family: 'Caveat', cursive;
     font-size: 28px;
     color: red;
+}
+#footer-logo{
+/*    font-size: 24px;*/
+    color: black;
+}
+
+footer{
+    padding: 10px;
+    background: #ccc;
 }
